@@ -77,8 +77,31 @@
     </section>
 
     <section id="servicios">
-        <h1>Servicios</h1>
-        <!-- Agrega información sobre los servicios que ofreces aquí -->
+        <div class="container mt-5">
+            <h1>Servicios de Educación Financiera</h1>
+            <p>Descubre cómo podemos ayudarte a mejorar tus habilidades financieras.</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Servicio 1</h2>
+                    <img src="imagen-servicio-1.jpg" alt="Imagen del servicio 1" class="img-fluid">
+                    <p>Descripción del Servicio 1.</p>
+                    <a href="#" class="btn btn-primary">Más Información</a>
+                </div>
+                <div class="col-md-4">
+                    <h2>Servicio 2</h2>
+                    <img src="imagen-servicio-2.jpg" alt="Imagen del servicio 2" class="img-fluid">
+                    <p>Descripción del Servicio 2.</p>
+                    <a href="#" class="btn btn-primary">Más Información</a>
+                </div>
+                <div class="col-md-4">
+                    <h2>Servicio 3</h2>
+                    <img src="imagen-servicio-3.jpg" alt="Imagen del servicio 3" class="img-fluid">
+                    <p>Descripción del Servicio 3.</p>
+                    <a href="#" class="btn btn-primary">Más Información</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contacto">
@@ -91,5 +114,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 </body>
 </html>
+
 
 
