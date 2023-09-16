@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="./images/favicon.png">
-  <title>Caroline Sada</title>
-  <link rel="stylesheet" href="style.css">
-  <!--  Bootstrap 5.3 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Sada</title>
+    <style>
+        header {
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        header img {
+            width: 100px; /* Ajusta el tamaño de tu logo */
+            height: auto;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin-left: auto;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+    </style>
 </head>
-
 <body>
-  <header class="caro  container-fluid">
-    <nav class="row nav container ">
-      <div class="col  flex-row ">
-        <img src="images/logo1.svg" class="float-end nav_img">
-      </div>
-      <div class="col d-flex flex-row-reverse">
-        <a href="#ebook" class="nav_link">E-Book</a>
-      </div>
-    </nav>
+    <header>
+        <img src="tu-logo.png" alt="Logo de la empresa">
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="container container1">
-      <div class="caro_texts">
-        <h1 class="title">¡Hola! Soy Caroline Sada</h1>
-        <p class="caro_paragraph">Inscríbete en mi curso <strong> y mejora tus finanzas de una vez por todas</strong>, lo mejor de todo NO tienes 
-que preocuparte por los apuntes, porque todo estará en este <strong> recurso completamente gratis</strong> para ti. </p>
-        <a href="#ebook" class="cta"> Descárgalo ahora
-        </a>
-      </div>
-
-      <figure class="container-fluid">
-        <div class="container ">
-          <img src="images/Boss-giving-instructions-to-employee.svg" class="mx-auto d-block img1">
-        </div> 
-      </figure>
-
+    <section id="nosotros">
+        <h1>Nosotros</h1>
+        <!-- Agrega contenido sobre tu empresa o equipo aquí -->
     </section>
-  </header>
 
-  <main>
+    <section id="servicios">
+        <h1>Servicios</h1>
+        <!-- Agrega información sobre los servicios que ofreces aquí -->
+    </section>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <!-- Agrega un formulario de contacto u otra información de contacto aquí -->
+    </section>
+</body>
+<main>
     <section id="ebook" class="container">
       <div class="section_container1 container1">
         <figure class="section_figure">
@@ -80,38 +94,4 @@ que preocuparte por los apuntes, porque todo estará en este <strong> recurso co
       </div>
     </section>
   </main>
-
-  <footer class="footer">
-    <section class="footer_container1 container1">
-      <div class="footer_social">
-        <figure class="footer_figure">
-          <img class="footer_img" src="images/logo2.svg" alt="">
-        </figure>
-        <p class="footer_paragraph footer_paragraph--social">Caroline Sada, licenciada en Administración y Dirección de Empresas, contacto y redes sociales:</p>
-
-        <div class="footer_media">
-          <img src="images/icon-phone.svg" class="footer_svg">
-          <p class="footer_paragraph">Phone: +1-543-123-4567</p>
-        </div>
-        <div class="footer_media">
-          <img src="images/icon-email.svg" class="footer_svg">
-          <p class="footer_paragraph"> caro.sada@gmail.com
-          </p>
-        </div>
-
-        <div class="footer_media">
-          <a target="_blank" href="https://www.tiktok.com/"><img src="images/icons8-tiktok.svg" class="footer_svg"></a>
-          <a target="_blank" href="https://www.facebook.com/"><img src="images/fb.svg" class="footer_svg"></a>
-          <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.svg" class="footer_svg"></a>
-          <a target="_blank" href="https://twitter.com/"><img src="images/twitter.svg" class="footer_svg"></a>
-        </div>
-      </div>
-
-    </section>
-  </footer>
-</body>
-
 </html>
-
-
-
